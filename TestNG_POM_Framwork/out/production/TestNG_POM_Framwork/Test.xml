@@ -1,0 +1,20 @@
+<suite name="Search Funtion test Suite">
+    <test name="Search Test Mac">
+        <parameter name="searchItem" value="Mac"></parameter>
+        <classes>
+            <class name="Test.SearchFunctionality">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Search Test Sony">
+        <parameter name="searchItem" value="Sony"></parameter>
+        <classes>
+            <class name="Test.SearchFunctionality">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

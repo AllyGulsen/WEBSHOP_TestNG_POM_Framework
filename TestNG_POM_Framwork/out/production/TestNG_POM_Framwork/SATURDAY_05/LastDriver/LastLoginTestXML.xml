@@ -1,0 +1,42 @@
+
+<suite name="Login Function Suite">
+
+    <groups>
+        <run>
+            <include name="Positive Test"></include>
+            <include name="Negative Test"></include>
+
+        </run>
+    </groups>
+
+
+    <test name="Positive Login Test">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="email" value="e-mail@gmail.com"></parameter>
+        <parameter name="password" value="Pasvord"></parameter>
+
+        <classes>
+            <class name="SATURDAY_05.LastDriver.LastTest.LastLoginFunctionTest"></class>
+        </classes>
+
+    </test>
+
+
+    <test name="Negative Login Test">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="invalidEmail" value="wrongmail@gmail.com"></parameter>
+        <parameter name="password" value="Pasvord"></parameter>
+
+        <classes>
+            <class name="SATURDAY_05.LastDriver.LastTest.LastLoginFunctionTest"></class>
+        </classes>
+
+    </test>
+
+
+
+
+
+</suite>

@@ -1,0 +1,31 @@
+<suite name="Cross Browser Suite">
+    <test name="Chrome Browser Test">
+
+        <Parameter name="browser" value="chrome"></Parameter>
+
+        <classes>
+
+            <class name="Saturday4.SaturdayProject.Test.ContactUsTestClass"></class>
+            <class name=" Saturday4.SaturdayProject.Test.PlaceOrderTestClass"></class>
+            <class name="Saturday4.SaturdayProject.Test.LoginTestClass"></class>
+
+        </classes>
+    </test>
+
+
+
+
+
+<test name="Firefox Browser Test">
+
+    <Parameter name="browser" value="firefox"></Parameter>
+
+    <classes>
+
+        <class name="Saturday4.SaturdayProject.Test.ContactUsTestClass"></class>
+        <class name=" Saturday4.SaturdayProject.Test.PlaceOrderTestClass"></class>
+
+    </classes>
+</test>
+
+</suite>

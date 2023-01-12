@@ -1,0 +1,29 @@
+
+
+
+<!--Aynı Classtaki Aynı testi 2 farklı browserda paralel execute ediyorum yani hem paralel hem cross browser testing yapıyorum-->
+
+<suite name="Parallel and CrossBrowser Suite"parallel="tests" thread-count="2">
+
+    <test name="in Chrome Test" >
+
+        <parameter name="browser" value="chrome"></parameter>
+
+        <classes>
+            <class name="Test.LoginTestClass"></class>
+        </classes>
+    </test>
+
+
+
+    <test name="in FireFox Test" parallel="classes" thread-count="3">
+        <parameter name="browser" value="firefox"></parameter>
+
+        <classes>
+            <class name="Test.LoginTestClass"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
