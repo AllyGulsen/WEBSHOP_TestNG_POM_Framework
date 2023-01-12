@@ -1,9 +1,0 @@
-<suite name="Contact Us Function test Suite">
-    <test name="Contact Us Test">
-        <parameter name="enquiry" value="Hello, this is enquiry"></parameter>
-        <classes>
-            <class name="Test.ContactUsFunctionTest">
-            </class>
-        </classes>
-    </test>
-</suite>
